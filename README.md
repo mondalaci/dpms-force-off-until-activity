@@ -7,6 +7,12 @@ In order to build it first `apt-get install libxss-dev libxext6-dev` as root and
 
 After having a successful build you'll be able to use the `lock-screen.sh` script too lock the screen.  You're encouraged to bind either of these executables to a hotkey of your choice.
 
-I created this utility by taking the relevant code from https://github.com/dirjud/python-dpms and https://github.com/agravier/actmon and welding them together.
+nxmehta's Python script
+-----------------------
 
 There is a [relevant thread on UbuntuForums.org](http://ubuntuforums.org/showthread.php?t=1317747) in which various workarounds have been discussed the most interesting and effective being [nxmehta's Python script](http://ubuntuforums.org/showpost.php?p=9433671&postcount=24).  His script captures every user event of the root window to work around this issue.
+
+Attributions
+------------
+
+I created this utility by taking the relevant code from https://github.com/dirjud/python-dpms and https://github.com/agravier/actmon and welding them together.
