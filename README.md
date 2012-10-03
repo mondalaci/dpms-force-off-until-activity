@@ -5,7 +5,7 @@ The `dpms-force-off-until-activity` utility has solely been created to work arou
 
 In order to build it first `apt-get install libxss-dev libxext6-dev` as root and then type `make`.
 
-After having a successful build you'll be able to use `lock-screen.sh` too lock the screen.  You're encouraged to bind this script to a hotkey of your choice.
+After having a successful build you'll be able to use `lock-screen.sh` to lock the screen.  You're encouraged to bind this script to a hotkey of your choice.
 
 nxmehta's Python script
 -----------------------
