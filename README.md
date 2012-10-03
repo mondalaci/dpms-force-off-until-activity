@@ -10,7 +10,7 @@ After having a successful build you'll be able to use the `lock-screen.sh` scrip
 nxmehta's Python script
 -----------------------
 
-There is a [relevant thread on UbuntuForums.org](http://ubuntuforums.org/showthread.php?t=1317747) in which various workarounds have been discussed the most interesting and effective one being [nxmehta's Python script](http://ubuntuforums.org/showpost.php?p=9433671&postcount=24).  His script captures all user events of the root window to work around this issue.  I think his approach is more elegant than mine but I couldn't make it work to lock my screen without my desktop being momentarily exposed which can be very uncomfortable privacy-wise.
+There is a [relevant thread on UbuntuForums.org](http://ubuntuforums.org/showthread.php?t=1317747) in which various workarounds have been discussed the most interesting and effective one being [nxmehta's Python script](http://ubuntuforums.org/showpost.php?p=9433671&postcount=24).  His script captures all user events of the root window to work around this issue.  Even thought I think his approach is more elegant and efficient than mine but I couldn't make it work to lock my screen without my desktop being momentarily exposed which can be very uncomfortable privacy-wise.  His script is probably a better choice than my utility is if you only want to blank and not to lock the screen.  I added the original and the optimized version of his script to this repo.  Both versions should work the same way but please let me know if I screwed up the optimized version.
 
 Attributions
 ------------
