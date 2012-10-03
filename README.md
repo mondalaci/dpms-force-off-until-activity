@@ -19,4 +19,4 @@ I added the original and the optimized version of his script to this repo.  Both
 Attributions
 ------------
 
-I created this utility by taking the relevant code from https://github.com/dirjud/python-dpms and https://github.com/agravier/actmon and welding them together.
+I created the `dpms-force-off-until-activity` utility by taking the relevant code from https://github.com/dirjud/python-dpms and https://github.com/agravier/actmon and welding them together.
