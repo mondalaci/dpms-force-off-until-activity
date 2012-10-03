@@ -1,14 +1,10 @@
 dpms-force-off-until-activity
 =============================
 
-A utility that forces the display to stay disabled until some user activity occurs
+This utility has solely been created to work around [Gnome Power Manager bug #447728](https://bugs.launchpad.net/ubuntu/+source/gnome-power-manager/+bug/447728) by repeatedly forcing DPMS to disable the screen until some user activity occurs.
 
-apt-get libxss-dev libxext6-dev
+In order to build it first `apt-get install libxss-dev libxext6-dev` as root and then type `make`.
 
-https://bugs.launchpad.net/ubuntu/+source/gnome-power-manager/+bug/447728
+I created this utility by taking the relevant code from https://github.com/dirjud/python-dpms and https://github.com/agravier/actmon
 
-http://ubuntuforums.org/showthread.php?t=1317747
-http://ubuntuforums.org/showpost.php?p=9433671&postcount=24
-
-https://github.com/agravier/actmon
-https://github.com/dirjud/python-dpms
+There is a [relevant thread on UbuntuForums.org](http://ubuntuforums.org/showthread.php?t=1317747) in which various workarounds have been discussed the most interesting and effective being [nxmehta's Python script](http://ubuntuforums.org/showpost.php?p=9433671&postcount=24).  His script captures every user event on the root window to work around this issue.
