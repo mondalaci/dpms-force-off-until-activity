@@ -12,7 +12,7 @@ nxmehta's Python script
 
 There is a [relevant thread on UbuntuForums.org](http://ubuntuforums.org/showthread.php?t=1317747) in which various workarounds have been discussed the most interesting and effective one being [nxmehta's Python script](http://ubuntuforums.org/showpost.php?p=9433671&postcount=24).  His script captures all user events of the root window to work around this issue.
 
-Even thought I think his approach is more elegant and efficient than mine, I couldn't make it lock my screen without my desktop being momentarily exposed which I consider unacceptable privacy-wise.  His script is probably a better choice than my utility is if you only want to blank and not to lock the screen.
+Even thought I think his approach is more elegant and efficient than mine, I couldn't make it lock my screen without my desktop being momentarily exposed which I consider unacceptable privacy-wise.  His script is probably a better choice than my utility if you only want to blank and not to lock the screen.
 
 I added the original and the optimized version of his script to this repo.  Both versions should work the same way given that I didn't screw up the optimization but please let me know if I did.
 
